@@ -1,4 +1,4 @@
-bot.pyfrom telegram import Update
+from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
