@@ -5,7 +5,7 @@ import yt_dlp
 from telegram import Update, ReplyKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, ContextTypes, filters
 
-TOKEN = "8568170013:AAG4fesWoTT-IC8UNHN7TaMkRu2OxO66DvQ"
+TOKEN ="8568170013:AAG4fesWoTT-IC8UNHN7TaMkRu2OxO66DvQ"
 
 user_games = {}
 leaderboard = defaultdict(int)
